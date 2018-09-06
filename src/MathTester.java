@@ -58,7 +58,7 @@ public class MathTester {
         System.out.println(" ");
 
         float bodyMassIndex;
-        bodyMassIndex = resultHeightTotal/(resultWeightTotal*resultWeightTotal);
+        bodyMassIndex = (resultWeightTotal)/(resultHeightTotal*resultHeightTotal);
         System.out.println("Your Body Mass Index is... " + bodyMassIndex + "!");
 
 
